@@ -1,0 +1,27 @@
+body{
+    margin: unset;
+}
+
+.main-box {
+
+}
+
+.box1, .box2, .box3, .box5 {
+    padding-right: 100px;
+    padding-left: 100px;
+    height: 100vh;
+}
+
+.mybuttons {
+    width:100px;
+    height: 20px;
+    padding:10px;
+    text-align: center;
+    background-color: rgb(255, 180, 82);
+}
+
+
+.mybuttons:hover {
+    color:white;
+    background-color: rgb(8, 6, 26);
+}
