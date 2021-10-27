@@ -56,11 +56,12 @@
     color:gray;
     font-size:13pt;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, 250px);
     gap:20px;
 }
 .box6_form_textboxes_textbox {
-
+    display:grid;
+    grid-template-rows: 1fr 1fr;
 }
 .box6_form_textboxes_textbox label{
 
@@ -76,13 +77,14 @@
     border-style: solid;
     border-color: rgb(211, 211, 211);
     border-radius: 5px;
-    width:100%;
+
 }
 
 .box6_form_footer {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: space-between;
+    width:100%;
     margin-bottom: 25px;
 }
 
@@ -91,7 +93,7 @@
     flex-direction: row;
     justify-content: flex-end;   
 }
-.signup_btm {
+.signup_btn {
     display:flex;
     justify-content:center;
     width: 150px;
