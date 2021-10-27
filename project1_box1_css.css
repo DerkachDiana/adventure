@@ -52,7 +52,6 @@
     gap:20px;
     color:white;
     font-size: 20pt;
-    font-family:Tahoma, sans-serif;
 }
 
 .box1_header_spacer{
@@ -63,7 +62,6 @@
     display:flex;
     flex-direction: column;
     color:white;
-    font-family:Tahoma;
     gap:20px;
     width:700px;
     position: relative;

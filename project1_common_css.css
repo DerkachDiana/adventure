@@ -1,11 +1,12 @@
 
 @font-face {
     font-family: 'MyUbuntu';
-    src: url('/Ubuntu/Ubuntu-Regular.ttf');
+    src: url('Ubuntu/Ubuntu-Regular.ttf');
 }
 
 body{
     margin: unset;
+    font-family: 'MyUbuntu';
 }
 
 .main-box {
