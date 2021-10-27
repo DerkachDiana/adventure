@@ -1,3 +1,9 @@
+
+@font-face {
+    font-family: 'MyUbuntu';
+    src: url('/Ubuntu/Ubuntu-Regular.ttf');
+}
+
 body{
     margin: unset;
 }
@@ -19,6 +25,7 @@ body{
     text-align: center;
     border-radius: 5px;
     background-color: rgb(255, 180, 82);
+
 }
 
 
