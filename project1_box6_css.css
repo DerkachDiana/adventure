@@ -1,0 +1,140 @@
+.box6{
+    height:100vh;
+    background-color: rgb(226, 226, 226);
+    font-family: Tahoma;
+
+}
+.box6_content {
+    max-width: 600px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 20px;
+}
+.box6_top_spacer {
+    height: 60px;
+}
+.box6_form {
+    display:flex;
+    flex-direction: column;
+    padding:20px;
+    max-width:600px;
+    background-color: rgb(255, 255, 255);
+    gap:20px;
+    border-radius: 5px;
+}
+.box6_form_header {
+    display:flex;
+    flex-direction: row;
+}
+
+.box6_form_header_leftpart {
+    display:flex;
+    flex-direction: row;
+    width:50%;
+    justify-self: flex-start;
+    gap:20px;
+    font-size:15pt;
+
+}
+
+.box6_form_header_spacer {
+    flex-grow: 1;
+}
+
+.box6_form_header_rightpart {
+    display:flex;
+    flex-direction: row;
+    width:50%;
+    justify-content: flex-end;
+
+}
+.box6_form_textboxes {
+    
+    color:gray;
+    font-size:13pt;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:20px;
+}
+.box6_form_textboxes_textbox {
+
+}
+.box6_form_textboxes_textbox label{
+
+    width:100%;
+}
+
+.box6_form_textboxes_textbox input {
+ 
+    height: 30px;
+    box-shadow: unset;
+    color:unset;
+    background-color: unset;
+    border-style: solid;
+    border-color: rgb(211, 211, 211);
+    border-radius: 5px;
+    width:100%;
+}
+
+.box6_form_footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-bottom: 25px;
+}
+
+.box6_form_footer_btm {
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;   
+}
+.signup_btm {
+    display:flex;
+    justify-content:center;
+    width: 150px;
+    height: 30px;
+    background-color:black;
+    color: white;
+    text-align: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.box6_footer {
+    display:flex;
+    flex-direction: row;
+}
+.box6_footer_label {
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.box6_footer_rightpart {
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap:20px;
+}
+.box6_footer_socitybtm {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-color: rgb(211, 211, 211);
+    border-radius: 5px;
+    border-style: solid;
+    width: 300px;
+    height: 30px;
+
+}
+.box6_footer_socitybtm span {
+
+}
+
+.box6_footer_socitybtm img {
+    width:24px;
+    height:24px;
+    margin-right:5px;
+}
