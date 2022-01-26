@@ -13,7 +13,7 @@
     <link rel='stylesheet' type='text/css' media='screen' href='project1_box5_css.css'>
     <link rel='stylesheet' type='text/css' media='screen' href='project1_box6_css.css'>
     <link rel='stylesheet' type='text/css' media='screen' href='project1_box7_css.css'>
-    <script src='project1_js.js'></script>
+    
 </head>
 <body>
     <div class = "main-box">
@@ -235,39 +235,39 @@
                         </div>
                     </div>
                     <hr>
-                    <div class = "box6_form_textboxes">
-                        <div class = "box6_form_textboxes_textbox">
+                    <form id = "person_info" class = "box6_form_textboxes">
+                        <div  class = "box6_form_textboxes_textbox">
                             <label>Name</label>
                             <input type = "text" name = "name">
                         </div>
                         <div class = "box6_form_textboxes_textbox">
                             <label>Last name</label>
-                            <input type = "text" name = "Lastname">
+                            <input type = "text" name = "lastname">
                         </div>
                         <div class = "box6_form_textboxes_textbox">
                             <label>Phone</label>
-                            <input type = "text" name = "Phone">
+                            <input type = "text" name = "phone">
                         </div>
                         <div class = "box6_form_textboxes_textbox">
                             <label>E-mail</label>
-                            <input type = "text" name = "E-mail">
+                            <input type = "text" name = "email">
                         </div>
                         <div class = "box6_form_textboxes_textbox">
                             <label>Password</label>
-                            <input type = "text" name = "Password">
+                            <input type = "text" name = "password">
                         </div>
                         <div class = "box6_form_textboxes_textbox">
                             <label>Confirm Password</label>
-                            <input type = "text" name = "ConfirmPassword">
+                            <input type = "text" name = "passwordConfirmation">
                         </div>
-                    </div>
+                    </form>
                     <div class = "box6_form_footer">
                         <div class = "box6_form_footer_checkagree">
                             <input type = "checkbox">
                             <label>I agree to <b>Terms and Conditions</b></label>
                         </div>
-                        <div class = "box6_form_footer_btm">
-                            <div class = "signup_btn"> <a>Sign Up</a></div>
+                        <div onclick = "submitForm()" class = "box6_form_footer_btm">
+                            <div  class = "signup_btn"> <a>Sign Up</a></div>
                         </div>
                     </div>
                 </div>  
@@ -282,5 +282,6 @@
             </div>
         </div>
     </div>
+    <script src='project1_js.js'></script>
 </body>
 </html>
